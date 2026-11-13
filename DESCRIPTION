@@ -1,7 +1,7 @@
 Package: rcccd
 Type: Package
 Title: Class Cover Catch Digraph Classification
-Version: 0.3.2
+Version: 0.4.0
 Authors@R: 
         c(person("Fatih", "Saglam", email = "saglamf89@gmail.com", 
         role = c("aut", "cre"), 
@@ -12,15 +12,18 @@ Description: Fit Class Cover Catch Digraph Classification models that can be
     <doi:10.1016/S0167-7152(01)00129-8>, Priebe et al. (2003) 
     <doi:10.1007/s00357-003-0003-7>, and Manukyan and Ceyhan (2016) 
     <doi:10.48550/arXiv.1904.04564>.
-Depends: R (>= 4.2)
+Depends: R (>= 4.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.2.1
-LinkingTo: Rcpp, RcppArmadillo
-Imports: Rcpp, RANN, Rfast, proxy
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LinkingTo: Rcpp
+Imports: Rcpp, RANN, Rfast
+Config/roxygen2/version: 8.1.1
 NeedsCompilation: yes
-Packaged: 2023-04-22 15:24:40 UTC; Fatih
-Author: Fatih Saglam [aut, cre] (<https://orcid.org/0000-0002-2084-2008>)
+Packaged: 2026-11-13 20:18:46 UTC; sagla
+Author: Fatih Saglam [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-2084-2008>)
 Maintainer: Fatih Saglam <saglamf89@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-04-24 09:50:02 UTC
+Date/Publication: 2026-11-13 21:10:02 UTC
